@@ -11,7 +11,6 @@
   inputs.src-mpfit-v0_1_2.ref   = "refs/tags/v0.1.2";
   inputs.src-mpfit-v0_1_2.owner = "Vindaar";
   inputs.src-mpfit-v0_1_2.repo  = "nim-mpfit";
-  inputs.src-mpfit-v0_1_2.dir   = "";
   inputs.src-mpfit-v0_1_2.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
